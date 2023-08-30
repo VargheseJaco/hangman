@@ -57,8 +57,6 @@ def play_game(word_list):
         elif game.num_letters > 0:
             game.ask_for_input()
             
-
-print(word_list)
 play_game(word_list)
        
 # %%
