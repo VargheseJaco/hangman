@@ -1,8 +1,9 @@
 #%%
 import random
 
-word_list = ['lychee', 'mango', 'raspberry', 'strawberry', 'orange']
+word_list = ['lychee', 'mango', 'raspberry', 'strawberry', 'orange','mango']
 word = random.choice(word_list)
+# print(word_list.count('lychee'))
 
 def check_guess(guess):
     if guess in word:
@@ -19,7 +20,7 @@ def ask_for_input():
             print("Invalid letter. Please, enter a single alphabetical character.")
     check_guess(guess)
 
-ask_for_input()
+# ask_for_input()
 
 
 # %%
